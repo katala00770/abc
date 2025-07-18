@@ -2,7 +2,7 @@
   "name": "ASITHA-MD",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
-  "main": "start.js"// <-- I have changed this line from "index.js" to "start.js"
+  "main": "start.js"
   "scripts": {
     "start": "pm2 start start.js --deep-monitoring --attach --name ASITHA-MD",
     "stop": "pm2 stop ASITHA-MD",
